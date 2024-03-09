@@ -1,0 +1,8 @@
+- "left reads":
+  - "/home/ubuntu/In23-S4_CS5614_Sequence_Assembly/output_directory/corrected/mutant_R1.00.0_0.cor.fastq.gz"
+  "orientation": "fr"
+  "right reads":
+  - "/home/ubuntu/In23-S4_CS5614_Sequence_Assembly/output_directory/corrected/mutant_R2.00.0_0.cor.fastq.gz"
+  "single reads":
+  - "/home/ubuntu/In23-S4_CS5614_Sequence_Assembly/output_directory/corrected/mutant_R_unpaired.00.0_0.cor.fastq.gz"
+  "type": "paired-end"

@@ -1,0 +1,6 @@
+- "left reads":
+  - "/home/ubuntu/In23-S4_CS5614_Sequence_Assembly/mutant_R1.fastq"
+  "orientation": "fr"
+  "right reads":
+  - "/home/ubuntu/In23-S4_CS5614_Sequence_Assembly/mutant_R2.fastq"
+  "type": "paired-end"
