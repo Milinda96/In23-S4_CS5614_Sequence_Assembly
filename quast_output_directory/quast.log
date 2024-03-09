@@ -1,0 +1,66 @@
+/usr/local/bin/quast.py /home/ubuntu/In23-S4_CS5614_Sequence_Assembly/output_directory/contigs.fasta -o /home/ubuntu/In23-S4_CS5614_Sequence_Assembly/quast_output_directory
+
+Version: 5.2.0
+
+System information:
+  OS: Linux-5.15.0-1055-aws-x86_64-with-glibc2.29 (linux_64)
+  Python version: 3.8.10
+  CPUs number: 2
+
+Started: 2024-03-09 08:02:12
+
+Logging to /home/ubuntu/In23-S4_CS5614_Sequence_Assembly/quast_output_directory/quast.log
+NOTICE: Maximum number of threads is set to 1 (use --threads option to set it manually)
+
+CWD: /home/ubuntu/In23-S4_CS5614_Sequence_Assembly
+Main parameters: 
+  MODE: default, threads: 1, min contig length: 500, min alignment length: 65, min alignment IDY: 95.0, \
+  ambiguity: one, min local misassembly length: 200, min extensive misassembly length: 1000
+
+Contigs:
+  Pre-processing...
+  /home/ubuntu/In23-S4_CS5614_Sequence_Assembly/output_directory/contigs.fasta ==> contigs
+
+2024-03-09 08:02:13
+Running Basic statistics processor...
+  Contig files: 
+    contigs
+  Calculating N50 and L50...
+    contigs, N50 = 132140, L50 = 1, auN = 104598.0, Total length = 179288, GC % = 33.59, # N's per 100 kbp =  0.00
+  Drawing Nx plot...
+    saved to /home/ubuntu/In23-S4_CS5614_Sequence_Assembly/quast_output_directory/basic_stats/Nx_plot.pdf
+  Drawing cumulative plot...
+    saved to /home/ubuntu/In23-S4_CS5614_Sequence_Assembly/quast_output_directory/basic_stats/cumulative_plot.pdf
+  Drawing GC content plot...
+    saved to /home/ubuntu/In23-S4_CS5614_Sequence_Assembly/quast_output_directory/basic_stats/GC_content_plot.pdf
+  Drawing contigs GC content plot...
+    saved to /home/ubuntu/In23-S4_CS5614_Sequence_Assembly/quast_output_directory/basic_stats/contigs_GC_content_plot.pdf
+  Drawing Coverage histogram (bin size: 1x)...
+    saved to /home/ubuntu/In23-S4_CS5614_Sequence_Assembly/quast_output_directory/basic_stats/coverage_histogram.pdf
+  Drawing contigs coverage histogram (bin size: 1x)...
+    saved to /home/ubuntu/In23-S4_CS5614_Sequence_Assembly/quast_output_directory/basic_stats/contigs_coverage_histogram.pdf
+Done.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding or --glimmer option to enable it.
+
+2024-03-09 08:02:14
+Creating large visual summaries...
+This may take a while: press Ctrl-C to skip this step..
+  1 of 2: Creating PDF with all tables and plots...
+  2 of 2: Creating Icarus viewers...
+Done
+
+2024-03-09 08:02:15
+RESULTS:
+  Text versions of total report are saved to /home/ubuntu/In23-S4_CS5614_Sequence_Assembly/quast_output_directory/report.txt, report.tsv, and report.tex
+  Text versions of transposed total report are saved to /home/ubuntu/In23-S4_CS5614_Sequence_Assembly/quast_output_directory/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version (interactive tables and plots) is saved to /home/ubuntu/In23-S4_CS5614_Sequence_Assembly/quast_output_directory/report.html
+  PDF version (tables and plots) is saved to /home/ubuntu/In23-S4_CS5614_Sequence_Assembly/quast_output_directory/report.pdf
+  Icarus (contig browser) is saved to /home/ubuntu/In23-S4_CS5614_Sequence_Assembly/quast_output_directory/icarus.html
+  Log is saved to /home/ubuntu/In23-S4_CS5614_Sequence_Assembly/quast_output_directory/quast.log
+
+Finished: 2024-03-09 08:02:15
+Elapsed time: 0:00:03.013106
+NOTICEs: 2; WARNINGs: 0; non-fatal ERRORs: 0
+
+Thank you for using QUAST!
